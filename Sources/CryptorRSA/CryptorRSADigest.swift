@@ -236,7 +236,7 @@ extension Data {
 					return .rsaEncryptionOAEPSHA384AESGCM
 				
 				case .sha512:
-					return .rsaEncryptionOAEPSHA512AESGCM
+					return .rsaEncryptionRaw
                     
                 case .gcm:
                     return .rsaEncryptionOAEPSHA1AESGCM
